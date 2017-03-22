@@ -1,0 +1,288 @@
+
+h1{	
+	font-family:NewFont;
+	font-size: 8px;
+	line-height: 8px;
+	color: black;
+	 }
+h2{	
+	font-family:NewFont;
+	font-size: 25px;
+	line-height: 25px;
+	color: black;
+	 }
+h3{	
+	font-family:NewFont;
+	font-size: 1px;
+	line-height:1px;
+	color:#B8B1B0  ;
+	font-style: bold;
+	 }	
+h4{	
+	font-family:NewFont;
+	font-size: 15px;
+	line-height: 15px;
+	color: white;
+	 }	 
+
+
+#topbar{
+	height: 20vh;
+	width:90%;
+	margin-left: 5%;   
+	margin-right: 5%;	
+	
+
+}
+#sidebar{
+	height:12vh;
+	width:15%;
+	float:left;
+}
+#logop{
+	width:70%;
+	height: 12vh;
+	float:left;
+	text-align: center;
+}
+#logo{
+	width:auto;
+	height: 100px;	
+	margin-top:-20px;
+	
+}
+#loginbar{
+	height:12vh;
+	width:15%;
+	float:left;
+	text-align: right;
+}
+#login{
+	width:auto;
+	height: 45px;	
+	margin-top:8px;
+	margin-right: -8px;
+}
+
+
+
+#menubar{
+	height: 8vh;
+	background-color:white;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: #E7E3E2  ;
+	border-width: 2.5px;
+	width: 100%;
+	float:right;	
+}
+#menucontain{
+	margin:0px auto;
+	width: 60%;
+	margin-left: 20%;
+}
+.menubut{
+	background:white;
+	width: 25%;
+	height: 8vh;
+	float: left;
+	line-height: 8vh;
+	text-align: center;
+	font-size: 2.2vh; 
+}
+.menubut:hover {
+background: #EFEBEA;
+border-radius: 8px;
+}
+
+
+
+
+
+
+#bodycontainer{
+	height: auto;
+	margin-left: 5%;   
+	margin-right: 5%;
+	width:90%;
+	background-color:white;
+
+}
+
+#shortfilm{
+	margin-top: 2vh;
+	
+    width: 139vh;
+	max-width: 90%;
+    height: 78vh;
+}
+
+#flupad{
+margin-top: 20px;
+width: 100%;
+height: 300px;
+
+background-color:#EFEBEA;
+}
+
+#wordpad{
+margin-top: 13vh;
+
+width: 100%;
+height: 150px;
+text-align:center;
+}
+
+#blockpad{
+margin-top: 13vh;
+width: 100%;
+height: auto;
+
+}
+#triangle-right{
+	 float: right;
+     width: 0;
+     height: 0;
+     border-top: 20px solid orange;
+     border-left: 20px solid transparent;	 
+}
+#triangle-left{
+	 float: left;
+     width: 0;
+     height: 0;
+     border-bottom: 20px solid orange;
+     border-right: 20px solid transparent;
+     
+}
+#blockpadleft{
+width: 55%;
+height: auto;
+
+float:left;
+}
+#blockpadright{
+width: 42%;
+height: auto;
+
+float:right;
+}
+
+#block{
+width: 100%;
+float:left;
+margin-bottom: 12px;		 
+}
+
+.block {
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.blockimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .3s ease;
+}
+
+.block:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 5vw;
+  font-family:NewFont;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.flu{width: 90%;margin-left:5%;float:left;}
+.mySlides {display:none;}
+.fluimg{width:60%;float: left;height: 300px;}
+.w3-animate-right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.fluborder{width: 20%;height: 50px;float:left;border-right:2px solid #A3A3A3;}
+.fluword{width: 40%;height: 200px;float:left;background-color:white;}
+.fluword h1{font-family:NewFont;font-size: 7px;line-height: 60px;color: black;text-align: center;margin:auto;}
+.fluword h2{font-family:NewFont;font-size: 20px;line-height: 20px;color: black;margin-left:30%;}
+.fluword h3{font-family:NewFont;font-size: 20px;line-height: 20px;color: black;margin-left:40%;}
+
+
+.mapblock{
+margin-top: 20px;	
+width: 90%;	
+margin-left: 5%;   
+margin-right: 5%;
+text-align:center;
+}	 
+		 
+.mapblock img{
+width: auto;
+height: 80vh;
+max-width:80vw;	
+}
+
+.searchback{
+  font-size: 30px;
+  width: 50%;
+  border-radius:18px;
+  margin-bottom:60px;
+  margin-top:60px;
+  border: 1px solid #9E9390;
+}
+.searchback img{float:right;width:28px;height:28px;margin-right:7px;margin-top:4px;}
+
+
+#searchbox{
+  font-size: 30px;
+  width: 80%;
+   border-width: 0px;
+}
+
+
+
+
+
+.foot{background-color:#585250  ;width:100%;height: 350px;}
+.footlink{float:left;color: white;height:300px;width:20%;}	 
+.footlink h1{
+margin-left:30%;text-align:center; font-family:NewFont;
+font-size:20px;line-height: 25px;color:white;
+}		 
+.footlink h2{
+text-align:left;margin-left:60%;font-size:10px;color:white;
+}
+.footicon{float:right;height:50px;width:40%;margin-top:250px;}
+.footicon img{float:right;margin-right:20px;}
+
+.footbar{float:left;width:100%;height:40px;text-align:center;color:white;font-size:15px;margin-top:10px;;}
+
+
+
+				 
+		 
+
+
+
